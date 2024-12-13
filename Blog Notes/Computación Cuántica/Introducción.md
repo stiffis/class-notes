@@ -15,13 +15,14 @@ Para la computación cuántica las operaciones con _bits_ pueden ser predecibles
 ## Procesamiento de Información
 La principal diferencia en esta área es la posibilidad de poder realizar cálculos simultáneos por parte de la computación cuántica y cálculos secuenciales por parte de la computación clásica, de esta manera los propósitos entre estos dos tipo de computación son distintos.
 - $\text{Computación clásica: suma de }A=10_2 \text{ y }B=01_2$
-$$\begin{array}{c@{}c@{}c@{}c}
+$$\begin{array}{}
   & 1  0_2 & \quad (A)  \\
-+ & 0  1_2 & \quad  (B) \\
+  + & 0  1_2 & \quad  (B) \\
 \hline 
   & 1  1_2 & \quad (\text{suma})
 \end{array}$$
-	$\text{Aquí el resultado es }11_2\text{ equivalente a }3_{10}.$
+
+$\text{Aquí el resultado es }11_2\text{ equivalente a }3_{10}.$
 - $\text{Computación cuántica: }$
 $$|A\rangle = |10\rangle, \quad |B\rangle = |01\rangle$$
 $$|A\rangle |B\rangle |0\rangle = |10\rangle |01\rangle |0\rangle$$
