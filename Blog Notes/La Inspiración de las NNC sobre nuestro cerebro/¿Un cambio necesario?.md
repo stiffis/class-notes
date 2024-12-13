@@ -1,0 +1,1 @@
+Este cambio entre modelos refleja la necesidad de adaptar y mejorar los modelos existentes.El conexionismo marcó un giro al ser más permisivo y flexible con las variaciones tanto en el funcionamiento como en los datos recibidos, transformando la inteligencia artificial y la forma en que entendemos la mente humana.

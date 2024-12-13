@@ -1,0 +1,1 @@
+En el ámbito educativo, la matemática básica es el pilar de disciplinas avanzadas como la física, la economía y la ingeniería. En el empleo, habilidades matemáticas son valoradas en casi todos los sectores. Por ejemplo, empleos en tecnología, análisis de datos y gestión empresarial exigen la capacidad de trabajar con números y comprender conceptos matemáticos.

@@ -1,0 +1,40 @@
+%%% Number sets
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Zp}{\mathbb{Z^{+}}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Qp}{\mathbb{Q^{+}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rp}{\mathbb{R^{+}}}
+\newcommand{\C}{\mathbb{C}}
+
+%%% Propositional logic
+\newcommand{\lxor}{\mathbin{\Delta}}
+\newcommand{\T}{\text{V}}
+\newcommand{\F}{\text{F}}
+
+%%% Number theory
+\DeclareMathOperator{\lcm}{mcm} % Translation
+\DeclareMathOperator{\gcd}{mcd} % Translation
+\DeclareMathOperator{\min}{mín} % Translation
+\DeclareMathOperator{\max}{máx} % Translation
+
+%%% Functions
+\DeclareMathOperator{\dom}{Dom}
+\DeclareMathOperator{\ran}{Ran}
+
+%%% Trigonometry
+\DeclareMathOperator{\sin}{sen} % Translation
+
+%%% Set theory
+\DeclareMathOperator{\Ps}{\mathscr{P}} % Power set
+\newcommand{\lmid}{\;\middle|\;}       % "such that" symbol
+
+%%% Misc
+\newcommand{\qed}{\tag*{$\blacksquare$}} % Q.E.D. symbol
+
+\newenvironment{amatrix}[1]{%
+  \left[\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right]
+}

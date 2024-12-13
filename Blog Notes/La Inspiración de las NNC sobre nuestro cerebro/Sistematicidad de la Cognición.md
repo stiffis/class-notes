@@ -1,0 +1,7 @@
+Este es y sigue siendo un debate serio entre el cognitivismo y el conexionismo. Su lugar depende de cómo se interpreta y de las limitaciones que cada modelo tenga para explicarlo. Esto se refiere a la capacidad de la mente para manejar estructuras complejas coherentes y organizadas, similar a pensar que si alguien puede procesar "Juan ama a María", implícitamente también puede procesar "María ama a Juan".
+
+Tanto el cognitivismo como el conexionismo abordan este debate a su manera.
+
+- Por un lado, el cognitivismo expone que la mente funciona como un procesador de información que emplea reglas claras para operar con símbolos y relaciones. Un ejemplo es si existiese una regla que combinase sujeto, verbo y objeto, esta misma podría aplicarse a distintas configuraciones, similar a como funciona el polimorfismo en programación, donde una función definida puede usarse para distintos propósitos, sobrescribiendo esta al variar los parámetros que necesita.
+
+- Por otro lado, en el conexionismo, la sistematicidad de la cognición es la emergencia de la dinámica entre las redes neuronales al capturar regularidades en los datos recibidos o enviados. Por ejemplo, una red neuronal puede aprender a reconocer estructuras gramaticales mediante el entrenamiento en un conjunto suficientemente amplio de ejemplos, haciendo uso del refuerzo por experiencia (prueba y error) y la constante repetición.

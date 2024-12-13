@@ -1,0 +1,2 @@
+Proponiendo modelos inspirados en el cerebro, aparece el conexionismo en los años 80, explicando la mente como una red de neuronas capaces de aprender de datos correctos e incorrectos, adaptándose mediante el ajuste de conexiones. David Rumelhart y James McClelland, en su obra Parallel Distributed Processing, presentaron este cambio total en el modelaje de la mente, contribuyendo así al desarrollo práctico con la retropropagación, un método que permite a las redes neuronales aprender mediante el error.
+![[Pasted image 20241213015853.png]]

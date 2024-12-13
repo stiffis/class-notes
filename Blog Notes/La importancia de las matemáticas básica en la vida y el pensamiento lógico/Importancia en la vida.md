@@ -1,0 +1,2 @@
+La matemática básica es indispensable en actividades diarias como manejar un presupuesto, planificar un viaje o seguir una receta. Un ejemplo claro es el cálculo de descuentos y el manejo de finanzas personales, que requieren conocimientos básicos de porcentajes y operaciones aritméticas. Según un estudio del Banco Mundial, las personas que poseen habilidades matemáticas básicas tienen un 33% más de probabilidad de tomar decisiones financieras responsables, lo que mejora su calidad de vida.
+

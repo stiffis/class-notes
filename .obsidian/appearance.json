@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "style",
+    "typwriter-fix",
+    "images",
+    "mathjax",
+    "image-alignment",
+    "kanagawa-font-fix",
+    "mathjax-font-size",
+    "alignment"
+  ],
+  "nativeMenus": false,
+  "textFontFamily": "",
+  "cssTheme": "Catppuccin",
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "",
+  "showViewHeader": true
+}
