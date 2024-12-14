@@ -110,7 +110,7 @@
   "enableHoverPDFInternalLink": true,
   "recordPDFInternalLinkHistory": true,
   "alwaysRecordHistory": true,
-  "renderMarkdownInStickyNote": false,
+  "renderMarkdownInStickyNote": true,
   "enablePDFEdit": true,
   "author": "Stiff",
   "writeHighlightToFileOpacity": 0.46,
