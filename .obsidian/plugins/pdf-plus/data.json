@@ -113,7 +113,7 @@
   "renderMarkdownInStickyNote": false,
   "enablePDFEdit": true,
   "author": "Stiff",
-  "writeHighlightToFileOpacity": 0.2,
+  "writeHighlightToFileOpacity": 0.46,
   "defaultWriteFileToggle": false,
   "syncWriteFileToggle": true,
   "syncDefaultWriteFileToggle": false,
