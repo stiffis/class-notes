@@ -1,6 +1,6 @@
 # Índice
 %% Begin Waypoint %%
-- [[Algoritmos Cuánticos]]
+- [[Algoritmos Cuántic]]
 - [[Aplicaciones Futuras]]
 - [[Conexión con la Física]]
 - [[Elementos]]
