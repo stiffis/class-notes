@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBook",
       "🚀",
       "🌐",
       "📐",
-      "🌊",
-      "💡"
+      "🌊"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,5 +33,6 @@
     "debugMode": false,
     "lucideIconPackType": "native",
     "useInternalPlugins": false
-  }
+  },
+  "Blog Notes/Pensamiento Computacional/Peter J. Denning, Matti Tedre - Computational Thinking-MIT PressThe MIT Press (2019) (1).pdf": "LiBook"
 }
