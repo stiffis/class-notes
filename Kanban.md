@@ -8,6 +8,8 @@ kanban-plugin: board
 
 - [ ] Terminar texto Computación Cuántica
 - [ ] Comenzar texto entre IA y derecho
+- [ ] Pensamiento Computacional
+- [ ] Arq. de Computadoras
 
 
 ## ☕ Pendientes
