@@ -18,6 +18,7 @@ kanban-plugin: board
 - [ ] Planificar el aprendizaje de Discrete Maths y solución de problemas programación.
 - [ ] Estudiar Estadistica
 - [ ] Planificar salir a correr
+- [ ] Cambiar la disposición de colores de nvim 'catpuccin'
 
 
 ## 📚 Lecturas
