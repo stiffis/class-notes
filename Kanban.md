@@ -19,6 +19,7 @@ kanban-plugin: board
 - [ ] Estudiar Estadistica
 - [ ] Planificar salir a correr
 - [ ] Cambiar la disposición de colores de nvim 'catpuccin'
+- [ ] try to make "cubesats"
 
 
 ## 📚 Lecturas
