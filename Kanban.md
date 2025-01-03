@@ -21,7 +21,7 @@ kanban-plugin: board
 - [ ] Cambiar la disposición de colores de nvim 'catpuccin'
 - [ ] try to make "cubesats"
 - [ ] learn rust
-- [ ] add more texts to blog
+- [ ] add more thems to blog
 
 
 ## 📚 Lecturas
