@@ -22,6 +22,7 @@ kanban-plugin: board
 - [ ] try to make "cubesats"
 - [ ] learn rust
 - [ ] add more thems to blog
+- [ ] build case and tars(think about materials)
 
 
 ## 📚 Lecturas
