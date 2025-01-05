@@ -23,6 +23,7 @@ kanban-plugin: board
 - [ ] learn rust
 - [ ] add more thems to blog
 - [ ] build case and tars(think about materials)
+- [ ] Why machines learn?, bishop ML
 
 
 ## 📚 Lecturas
