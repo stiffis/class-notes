@@ -17,7 +17,12 @@ Al crear las distintas clases de un programa, creamos un ADT, que abarca no solo
 
 ---
 # Creando un ADT: 
-
+```cpp
+struct Alumno{};
+// Coloca todos los miembros por defecto publicos
+class Alumno{};
+// Coloca todos los miembros por defecto privados
+```
 
 ---
 # Constructores: 
