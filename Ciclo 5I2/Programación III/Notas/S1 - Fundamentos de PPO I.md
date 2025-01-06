@@ -31,5 +31,30 @@ class Alumno{};
 - Constructores de copia
 ---
 # Constructores de movimiento:
+## Lvalue:
+Es un objeto que tiene una ubicación en memoria y el identificable. Por ejemplo:
+```cpp
+int i = 7,
+int *p = &i;
+i = 10;
+// MODIFICABLE
+```
+## Rvalues:
+Es un objeto no identificable en memoria. Podemos detercar un R value rapidamente cuando el objeto *no tiene nombre*. Por ejemplo:
+```cpp
+int i = 7;           // i en un lvalue
+int k = i+3;
+int *pi = &(i+3);
+i + 3 = 10;
+3 = i;
+```
+
+Una referencia de Rvalue es aquella que se **vincula** únicamente a un Rvalue, es decir a objetos temporales en memoria. Se obtiene utilizando &&, en lugar de &. Por ejemplo:
+```cpp
+int i = 42;
+int &&c1 = 8;
+int &&d1 = i * 42;
+const int &d2 = i * 42;
+```
 
 ---
