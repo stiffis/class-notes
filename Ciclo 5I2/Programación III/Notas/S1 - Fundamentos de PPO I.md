@@ -24,6 +24,8 @@ class Alumno{};
 // Coloca todos los miembros por defecto privados
 ```
 
+- Constructores de copia
+- 
 ---
 # Constructores: 
 
