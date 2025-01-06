@@ -24,11 +24,11 @@ class Alumno{};
 // Coloca todos los miembros por defecto privados
 ```
 
-- Constructores de copia
-- 
 ---
 # Constructores: 
 
+- Constructores por defecto
+- Constructores de copia
 ---
 # Constructores de movimiento:
 
