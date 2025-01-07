@@ -40,7 +40,7 @@ i = 10;
 // MODIFICABLE
 ```
 ## Rvalues:
-Es un objeto no identificable en memoria. Podemos detercar un R value rapidamente cuando el objeto *no tiene nombre*. Por ejemplo:
+Es un objeto no identificable en memoria. Podemos detectar un R value rápidamente cuando el objeto *no tiene nombre*. Por ejemplo:
 ```cpp
 int i = 7;           // i en un lvalue
 int k = i+3;
