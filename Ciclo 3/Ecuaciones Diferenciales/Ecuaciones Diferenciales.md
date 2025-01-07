@@ -1,6 +1,6 @@
 
 
-**[[CC2101_Ecuaciones Diferenciales_2024 - 1.pdf|Sílabo]]** | **[Canvas](https://utec.instructure.com/courses/14098)** | **[Examenes Finales Pasados](https://drive.google.com/drive/folders/12Yn9e_uVv_gXJHhnPAGqh4KIT6jHS02o)**
+**[[Ciclo 3/Ecuaciones Diferenciales/CC2101_Ecuaciones Diferenciales_2024 - 1.pdf|Sílabo]]** | **[Canvas](https://utec.instructure.com/courses/14098)** | **[Examenes Finales Pasados](https://drive.google.com/drive/folders/12Yn9e_uVv_gXJHhnPAGqh4KIT6jHS02o)**
 
 ## Índice
 
