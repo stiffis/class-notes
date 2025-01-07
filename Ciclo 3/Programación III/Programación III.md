@@ -4,6 +4,7 @@
 ## Índice
 
 %% Begin Waypoint %%
+- **Laboratorio**
 - **Notas**
 	- [[S1A - Fundamentos de POO I]]
 	- [[S1B - Fundamentos de POO II]]
