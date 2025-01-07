@@ -2,7 +2,8 @@
 ## Índice
 
 %% Begin Waypoint %%
-- [[Explanation]]
+- **Notas**
+	- [[Explanation]]
 - **Resources**
 	- [[Untitled.excalidraw]]
 
