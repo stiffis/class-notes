@@ -17,13 +17,13 @@ kanban-plugin: board
 - [ ] Implementar ordenamiento
 - [ ] Planificar el aprendizaje de Discrete Maths y solución de problemas programación.
 - [ ] Estudiar Estadistica
-- [ ] Planificar salir a correr
 - [ ] Cambiar la disposición de colores de nvim 'catpuccin'
 - [ ] try to make "cubesats"
 - [ ] learn rust
 - [ ] add more thems to blog
 - [ ] build case and tars(think about materials)
 - [ ] Why machines learn?, bishop ML
+- [ ] POO exercises
 
 
 ## 📚 Lecturas
@@ -36,6 +36,7 @@ kanban-plugin: board
 ## 👍 Completado
 
 **Complete**
+- [ ] Planificar salir a correr
 
 
 ***
