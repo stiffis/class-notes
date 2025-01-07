@@ -1,4 +1,4 @@
-# Sobrecarga de operadores
+	# Sobrecarga de operadores
 Un operador sobrecargado es una función (o método). Tiene la palabra  _operator_ seguida del símbolo del operador.
 - Puede hacer que nuestro código se pueda escribir y leer mejor.
 - Un operador sobrecargado tiene la misma cantidad de parámetros que los operandos de operador.
