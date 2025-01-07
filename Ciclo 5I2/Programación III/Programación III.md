@@ -5,8 +5,8 @@
 
 %% Begin Waypoint %%
 - **Notas**
-	- [[S1 - Fundamentos de P00 II]]
-	- [[S1 - Fundamentos de PPO I]]
+	- [[S1A - Fundamentos de POO II]]
+	- [[S1B - Fundamentos de POO I]]
 
 %% End Waypoint %%
 
