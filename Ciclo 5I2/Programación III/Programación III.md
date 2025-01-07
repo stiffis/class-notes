@@ -10,3 +10,28 @@
 
 %% End Waypoint %%
 
+## Profesor
+**Teoría- Laboratorio**: Chavez Alvarez, Jose Armando
+- jchaveza@utec.edu.pe
+## Sistema de Evaluación
+
+### Teoría 50%
+
+| Tipo                | Cod | Nota |
+| ------------------- | --- | ---- |
+| Proyecto            | P1  | 20%  |
+| Evaluación Continua | C1  | 15%  |
+| Evaluación Continua | C2  | 15%  |
+
+### Laboratorio 50%
+
+
+| Tipo                | Cod | Nota |
+| ------------------- | --- | ---- |
+| Práctica Calificada | PC1 | 15%  |
+| Práctica Calificada | PC2 | 20%  |
+| Práctica Calificada | PC3 | 15%  |
+
+```ad-note
+La poderación de la evaluación se hará si ambas partes están aprobadas
+```

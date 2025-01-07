@@ -1,3 +1,4 @@
+
 ```ad-definition
 
 Una ecuación diferencial es **autónoma** si y sólo si se puede escribir de la forma
