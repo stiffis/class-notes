@@ -4,8 +4,7 @@ Un operador sobrecargado es una función (o método). Tiene la palabra  _operato
 - Un operador sobrecargado tiene la misma cantidad de parámetros que los operandos de operador.
 - Cuando un operador sobrecargado es un método, _this_ está vinculado al operando de la izquierda.
 - En una sobrecarga de operador al menor un parámetro debe ser distinto a los tipos de datos integrados en C++.
-
-+ - * / % & ^ | ~ ! , = < > <= >= ++ -- += -= /= %= ^= &= |= = <<= >>=
+![[Pasted image 20250106215453.png]]
 ## Operador de Salida:
 ```cpp
 ostream &operator<<(ostream &os, const Coordenada &item){
