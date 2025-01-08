@@ -5,9 +5,19 @@
 
 %% Begin Waypoint %%
 - **Laboratorio**
+	- **S1A**
+		- **E1**
+
+		- **E2**
+
+	- **S1B**
+
+	- **TAREA**
+
 - **Notas**
 	- [[S1A - Fundamentos de POO I]]
 	- [[S1B - Fundamentos de POO II]]
+	- [[S2A -]]
 
 %% End Waypoint %%
 
