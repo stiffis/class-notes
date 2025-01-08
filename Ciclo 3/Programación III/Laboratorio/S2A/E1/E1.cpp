@@ -2,7 +2,7 @@
 #include <string>
 class Pj {
 public:
-	Pj(std::string _name, std::string _raza, double _vida, double _ataque);
+	Pj(std::string _name, std::string _raza, int _vida, int _ataque);
 	~Pj();
 /*
 // NOTE: : << Print atrobutos, + Recuperar vida de un personaje, >> Para atacar
@@ -41,7 +41,7 @@ private:
 	double ataque;
 };
 
-Pj::Pj(std::string _name, std::string _raza, double _vida, double _ataque) : name(_name), raza(_raza), ataque(_ataque){
+Pj::Pj(std::string _name, std::string _raza, int _vida, int _ataque) : name(_name), raza(_raza), ataque(_ataque), vida(_vida){
 	std::cout << "Creando Pj" << std::endl;
 }
 
