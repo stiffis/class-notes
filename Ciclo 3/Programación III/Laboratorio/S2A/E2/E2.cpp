@@ -2,6 +2,7 @@
 #include <istream>
 class Complejo {
 public:
+	Complejo();
 	Complejo(double a, double b);
 	~Complejo();
 friend std::ostream &operator<<(std::ostream &os, const  Complejo& item){
@@ -39,9 +40,10 @@ bool operator==(Complejo& otro){
 // TODO: TERMINAR EL >>
 friend std::istream &operator>>(std::istream &is,  Complejo& item){
 	double x,y;
-	std::cin>>x;
-	std::cin>>y;
-//	is >> item.real(x) << item.img(y);
+	std::cout << "Ingrese la parte real: ";
+	is>>item.real;
+	std::cout << "Ingrese la parte img: ";
+	is>>item.img;
 	return is;
 
 }
@@ -50,7 +52,7 @@ private:
 	double real;
 	double img;
 };
-
+Complejo::Complejo(){}
 Complejo::Complejo(double a, double b) : real(a), img(b){
 
 }
@@ -62,9 +64,13 @@ Complejo::~Complejo() {
 int main () {
 	Complejo c1(1,2);
 	Complejo c2(3,4);
-	
+	Complejo c3;
 	std::cout << c1 << std::endl;
 	std::cout << c2 << std::endl;
-	std::cout << c1*c2 << std::endl;
+	std::cout << c1+c2 << std::endl;
+	std::cin >> c3;
+	std::cout << c3 << std::endl;
+	++c3;
+	std::cout << c3 << std::endl;
 	return 0;
 }
