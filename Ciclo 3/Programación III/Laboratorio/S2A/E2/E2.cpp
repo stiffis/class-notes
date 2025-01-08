@@ -4,9 +4,6 @@ class Complejo {
 public:
 	Complejo(double a, double b);
 	~Complejo();
-//bool operator==(const Coor &item1, const Coor &item2){
-//	return (item1.x == item2.x) && (item 1.y == item2.y);
-//}
 Complejo operator+(Complejo& otro){
 	Complejo result(this->real+otro.real,this->img+otro.img);
 	return result;
@@ -24,16 +21,17 @@ Complejo operator*(Complejo& otro){
 bool operator==(Complejo& otro){
 	return (this->real==otro.real)&&(this->img==otro.img);
 }
+
 friend std::ostream &operator<<(std::ostream &os, const  Complejo& item){
 	os << "q: " << item.real << " + " << item.img<<"i" << std::endl;
 	return os;
 }
-
+// TODO: TERMINAR EL >>
 friend std::istream &operator>>(std::istream &is,  Complejo& item){
 	double x,y;
 	std::cin>>x;
 	std::cin>>y;
-	is >> item(x,y);
+//	is >> item.real(x) << item.img(y);
 	return is;
 
 }
@@ -52,7 +50,10 @@ Complejo::~Complejo() {
 
 
 int main () {
+	Complejo c1(1,2);
+	Complejo c2(3,4);
 	
-
+	std::cout << c1 << std::endl;
+	std::cout << c2 << std::endl;
 	return 0;
 }
