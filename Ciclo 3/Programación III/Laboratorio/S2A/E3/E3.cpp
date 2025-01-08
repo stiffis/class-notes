@@ -1,3 +1,4 @@
+#include <iostream>
 class Cartas {
 public:
 	Cartas();
@@ -38,11 +39,16 @@ Cartas::Cartas() {
 	for (int i = 0; i < 13; ++i) {
 		corazones[i]=i;
 	}
-	
 }
 
+friend std::istream &operator>>(std::istream &is,  Cartas& item){
+
+}
 Cartas::~Cartas() {
-	delete[] cards;
+	delete[] estrella;
+	delete[] espada;
+	delete[] trebol;
+	delete[] corazones;
 }
 // NOTE: 3 PRIMEROS 
 // USAR UN ARRAY DE 1D
