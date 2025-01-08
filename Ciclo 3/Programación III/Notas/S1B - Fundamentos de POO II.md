@@ -106,7 +106,7 @@ Existen 3 tipos de herencia:
 
 ---
 # Polimorfismo
-## Tipos de Polimorfismo:
+## Tipos de Polimorfi
 - Polimorfismo Estático: Es conseguido utilizando **sobrecarga de funciones** o **sobrecarga de operadores**.
 - Polimorfismo Dinámico: Es conseguido a través de la anulación de funciones. _Se logra con métodos virtuales_.
 
