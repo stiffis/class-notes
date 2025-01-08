@@ -5,6 +5,7 @@ public:
 	Cartas(Cartas &&) = default;
 	
 	std::istream &operator>>(Cartas& item){
+		baraja()
 		item.estrella;
 	}
 
