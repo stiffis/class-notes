@@ -4,12 +4,17 @@ public:
 	Cartas();
 	Cartas(Cartas &&) = default;
 	
+	std::istream &operator>>(Cartas& item){
+		item.estrella;
+	}
 
 	Cartas(const Cartas &) = default;
 	Cartas &operator=(Cartas &&) = default;
 	Cartas &operator=(const Cartas &) = default;
 	~Cartas();
-
+	void baraja(Cartas& item){
+		
+	}
 private:
 	int* estrella;
 	int* trebol;
@@ -41,9 +46,6 @@ Cartas::Cartas() {
 	}
 }
 
-friend std::istream &operator>>(std::istream &is,  Cartas& item){
-
-}
 Cartas::~Cartas() {
 	delete[] estrella;
 	delete[] espada;
