@@ -1,4 +1,5 @@
 #include <iostream>
+#include <istream>
 class Complejo {
 public:
 	Complejo(double a, double b);
@@ -20,6 +21,23 @@ Complejo operator*(Complejo& otro){
 	Complejo result(c,d);
 	return result;
 }
+bool operator==(Complejo& otro){
+	return (this->real==otro.real)&&(this->img==otro.img);
+}
+friend std::ostream &operator<<(std::ostream &os, const  Complejo& item){
+	os << "q: " << item.real << " + " << item.img<<"i" << std::endl;
+	return os;
+}
+
+friend std::istream &operator>>(std::istream &is,  Complejo& item){
+	double x,y;
+	std::cin>>x;
+	std::cin>>y;
+	is >> item(x,y);
+	return is;
+
+}
+
 private:
 	double real;
 	double img;
