@@ -76,6 +76,83 @@ Magia::Magia() : Item(12, "Magia"){
 
 Magia::~Magia() {
 }
+//////////////////////////////////////////////////77777
+class Arma {
+public:
+	Arma(int n);
+	Arma(Arma &&) = default;
+	Arma(const Arma &) = default;
+	Arma &operator=(Arma &&) = default;
+	Arma &operator=(const Arma &) = default;
+	~Arma();
+friend class Pj;
+private:
+	double num;
+};
+
+Arma::Arma(int n) : num(n){
+}
+
+Arma::~Arma() {
+}
+//////////////////////////////////////////////////////
+class Hacha : public Arma{
+public:
+	Hacha();
+	Hacha(Hacha &&) = default;
+	Hacha(const Hacha &) = default;
+	Hacha &operator=(Hacha &&) = default;
+	Hacha &operator=(const Hacha &) = default;
+	~Hacha();
+
+private:
+	
+};
+
+Hacha::Hacha() : Arma(5){
+}
+
+Hacha::~Hacha() {
+}
+///////////////////////////////////////////////////////
+class Espada : public Arma{
+public:
+	Espada();
+	Espada(Espada &&) = default;
+	Espada(const Espada &) = default;
+	Espada &operator=(Espada &&) = default;
+	Espada &operator=(const Espada &) = default;
+	~Espada();
+
+private:
+	
+};
+
+Espada::Espada() : Arma(10){
+}
+
+Espada::~Espada() {
+}
+///////////////////////////////////////////////////////
+class Arco : public Arma{
+public:
+	Arco();
+	Arco(Arco &&) = default;
+	Arco(const Arco &) = default;
+	Arco &operator=(Arco &&) = default;
+	Arco &operator=(const Arco &) = default;
+	~Arco();
+
+private:
+	
+};
+
+Arco::Arco() : Arma(15){
+}
+
+Arco::~Arco() {
+}
+////////////////////////////////////////////////////////
 class Pj {
 public:
 	Pj(std::string name, std::string raza, double n, double m);
@@ -85,6 +162,10 @@ public:
 	Pj &operator=(const Pj &) = default;
 	void curar(Item m){
 		vida+=m.num;
+	}
+	void atacar(Arma n, Pj& m) {
+		double daño = m.ataque + n.num;
+		m.vida-=daño;
 	}
 	~Pj();
 friend std::ostream& operator<<(std::ostream& os, Pj& p){
@@ -114,11 +195,10 @@ int main(){
     Pj pj2("Legolas","Elfo",60,35); // Se cura con Magia
     Pj pj3("Aragorn","Humano",80,25); // Se cura con Agua
 
-    Carne carne;
-    Agua agua;
-    Magia magia;
+    Hacha hacha;
+    Arco arco;
+    pj1.atacar(hacha, pj2);
+    pj2.atacar(arco, pj3);
 
-    pj1.curar(carne);
-    
     std::cout << pj1 << pj2 << pj3;
 }
