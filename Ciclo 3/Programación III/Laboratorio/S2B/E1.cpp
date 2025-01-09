@@ -109,7 +109,7 @@ private:
 	
 };
 
-Hacha::Hacha() : Arma(5){
+Hacha::Hacha() : Arma(10){
 }
 
 Hacha::~Hacha() {
@@ -147,7 +147,7 @@ private:
 	
 };
 
-Arco::Arco() : Arma(15){
+Arco::Arco() : Arma(12){
 }
 
 Arco::~Arco() {
@@ -164,7 +164,7 @@ public:
 		vida+=m.num;
 	}
 	void atacar(Arma n, Pj& m) {
-		double daño = m.ataque + n.num;
+		double daño = this->ataque + n.num;
 		m.vida-=daño;
 	}
 	~Pj();
@@ -195,8 +195,8 @@ int main(){
     Pj pj2("Legolas","Elfo",60,35); // Se cura con Magia
     Pj pj3("Aragorn","Humano",80,25); // Se cura con Agua
 
-    Hacha hacha;
-    Arco arco;
+    Hacha hacha;//5
+    Arco arco;//15
     pj1.atacar(hacha, pj2);
     pj2.atacar(arco, pj3);
 
