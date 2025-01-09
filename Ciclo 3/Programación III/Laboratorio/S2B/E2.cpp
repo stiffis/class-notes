@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Forma{
 public:
 	Forma();
@@ -10,6 +12,10 @@ public:
 	}
 	virtual ~Forma();
 
+friend std::ostream& operator<<(std::ostream& os, Forma& p){
+	os << "Area de a figura es: " << p.area<< "u²"<<std::endl;
+	return os;
+}
 private:
 protected:
 	double area;
@@ -23,7 +29,7 @@ Forma::~Forma() {
 // Derivadas
 class Cuadrado : public Forma{
 public:
-	Cuadrado(int n);
+	Cuadrado(double n);
 	Cuadrado(Cuadrado &&) = default;
 	Cuadrado(const Cuadrado &) = default;
 	Cuadrado &operator=(Cuadrado &&) = default;
@@ -36,15 +42,15 @@ private:
 	double lado;
 };
 
-Cuadrado::Cuadrado(int n) : lado(n){
+Cuadrado::Cuadrado(double n) : lado(n){
 }
 
 Cuadrado::~Cuadrado() {
 }
 //----------------------------------------------------------
-class Circulo {
+class Circulo : public Forma{
 public:
-	Circulo(int r);
+	Circulo(double r);
 	Circulo(Circulo &&) = default;
 	Circulo(const Circulo &) = default;
 	Circulo &operator=(Circulo &&) = default;
@@ -58,15 +64,15 @@ private:
 	double radio;
 };
 
-Circulo::Circulo(int r) : radio(r){
+Circulo::Circulo(double r) : radio(r){
 }
 
 Circulo::~Circulo() {
 }
 //----------------------------------------------------------
-class Triangulo {
+class Triangulo :public Forma{
 public:
-	Triangulo();
+	Triangulo(double b, double h);
 	Triangulo(Triangulo &&) = default;
 	Triangulo(const Triangulo &) = default;
 	Triangulo &operator=(Triangulo &&) = default;
@@ -81,7 +87,7 @@ private:
 	double h;
 };
 
-Triangulo::Triangulo() {
+Triangulo::Triangulo(double b, double h) : base(b), h(h){
 }
 
 Triangulo::~Triangulo() {
@@ -90,14 +96,14 @@ int main(){
     Forma* forma;
 
     forma = new Cuadrado(2);
-    forma->calcularArea();
-    cout << *forma << endl;
+    forma->calcular_area();
+    std::cout << *forma << std::endl;
 
     forma = new Circulo(1);
-    forma->calcularArea();
+    forma->calcular_area();
     cout << *forma << endl;
 
     forma = new Triangulo(2,3);
-    forma->calcularArea();
+    forma->calcular_area();
     cout << *forma << endl;
 }
