@@ -5,10 +5,10 @@ public:
 	Forma(const Forma &) = default;
 	Forma &operator=(Forma &&) = default;
 	Forma &operator=(const Forma &) = default;
-	virtual void calcular_area(){
+	virtual void calcular_area() {
 	
 	}
-	~Forma();
+	virtual ~Forma();
 
 private:
 protected:
@@ -23,7 +23,7 @@ Forma::~Forma() {
 // Derivadas
 class Cuadrado : public Forma{
 public:
-	Cuadrado();
+	Cuadrado(int n);
 	Cuadrado(Cuadrado &&) = default;
 	Cuadrado(const Cuadrado &) = default;
 	Cuadrado &operator=(Cuadrado &&) = default;
@@ -36,7 +36,7 @@ private:
 	double lado;
 };
 
-Cuadrado::Cuadrado() {
+Cuadrado::Cuadrado(int n) : lado(n){
 }
 
 Cuadrado::~Cuadrado() {
@@ -44,7 +44,7 @@ Cuadrado::~Cuadrado() {
 //----------------------------------------------------------
 class Circulo {
 public:
-	Circulo();
+	Circulo(int r);
 	Circulo(Circulo &&) = default;
 	Circulo(const Circulo &) = default;
 	Circulo &operator=(Circulo &&) = default;
@@ -58,7 +58,7 @@ private:
 	double radio;
 };
 
-Circulo::Circulo() {
+Circulo::Circulo(int r) : radio(r){
 }
 
 Circulo::~Circulo() {
@@ -73,12 +73,31 @@ public:
 	Triangulo &operator=(const Triangulo &) = default;
 	~Triangulo();
 
+	void calcular_area() override {
+		area=base*h*0.5;
+	}
 private:
-	
+	double base;
+	double h;
 };
 
 Triangulo::Triangulo() {
 }
 
 Triangulo::~Triangulo() {
+}
+int main(){
+    Forma* forma;
+
+    forma = new Cuadrado(2);
+    forma->calcularArea();
+    cout << *forma << endl;
+
+    forma = new Circulo(1);
+    forma->calcularArea();
+    cout << *forma << endl;
+
+    forma = new Triangulo(2,3);
+    forma->calcularArea();
+    cout << *forma << endl;
 }
