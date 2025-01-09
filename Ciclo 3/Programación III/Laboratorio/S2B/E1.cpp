@@ -93,6 +93,7 @@ friend std::ostream& operator<<(std::ostream& os, Pj& p){
 	os << "Raza: " << p.raza << std::endl;
 	os << "Vida: " << p.vida << std::endl;
 	os << "Ataque: " << p.ataque << std::endl;
+	os << "---------------------------------" << std::endl;
 	return os;
 }
 private:
