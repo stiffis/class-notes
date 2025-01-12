@@ -87,7 +87,7 @@ Si queremos construir un nuevo objeto a partir de una variable (Lvalue) no podr�
 
 El constructor o cualquier función que capture tu variable casteada a Rvalue actuará como un destructor de la variable.
 
-## Definiendo el constructor de movimiento
+## Definiendo el constructor de copia y movimiento
 
 ```cpp
 class Foo{
