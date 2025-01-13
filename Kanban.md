@@ -24,6 +24,8 @@ kanban-plugin: board
 - [ ] build case and tars(think about materials)
 - [ ] Why machines learn?, bishop ML
 - [ ] POO exercises
+- [ ] finish snippets, overload operator and constructors, and more
+- [ ] Improve our calendar for more activities
 
 
 ## 📚 Lecturas
@@ -31,6 +33,13 @@ kanban-plugin: board
 - [ ] Make it Stick
 - [ ] Make your Bed
 - [ ] Programador Pragmático
+- [ ] Entiende la Tecnologia
+- [ ] DAta Science
+- [ ] Biofabrication
+- [ ] Machine Learning
+- [ ] Cloug Computing
+- [ ] Data Bases
+- [ ] Plataform Based Development
 
 
 ## 👍 Completado
