@@ -94,5 +94,23 @@ int main(){
 	return 0;
 }
 ```
+
+Ejemplo 3:
+```cpp
+void print(){cout<<endl;}
+
+template<typename T, typename... Ts>
+void print(T arg, Ts... args){
+	cout << arg << ' ';
+	print(args...);// args... desempaquetado!!
+}
+
+int main(){
+	print();
+	print(1,2,3,4,5);
+	print("Hola",1,"Mundo");
+	return 0;
+}
+```
 ---
 ## Variadic Alias Template
