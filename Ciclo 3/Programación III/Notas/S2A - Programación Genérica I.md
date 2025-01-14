@@ -194,5 +194,7 @@ Tenemos cuatro:
 ```ad-attention
 Finish notes, template<template<typename>> typename C, typename T>
 ...
+parametro template sin tipo,
+parametro template template.
 ```
 
