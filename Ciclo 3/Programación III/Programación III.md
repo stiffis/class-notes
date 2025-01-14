@@ -26,7 +26,7 @@
 - **Notas**
 	- [[S1A - Fundamentos de POO I]]
 	- [[S1B - Fundamentos de POO II]]
-	- [[S2A -]]
+	- [[S2A - Programación Genérica I]]
 
 %% End Waypoint %%
 
