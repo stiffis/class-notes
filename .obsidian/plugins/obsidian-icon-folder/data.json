@@ -2,15 +2,15 @@
   "settings": {
     "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
-    "fontSize": 16,
+    "fontSize": 17,
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "2️⃣",
-      "1️⃣",
-      "LiBookUp2",
-      "3️⃣",
-      "LiSun"
+      "LiMath",
+      "LiMathXDivideY2",
+      "LiCode",
+      "LiMathFunction",
+      "2️⃣"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,7 +31,7 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "debugMode": false,
-    "lucideIconPackType": "native",
+    "lucideIconPackType": "custom",
     "useInternalPlugins": false
   },
   "Blog Notes/Pensamiento Computacional/Computational Thinking - MIT Press - Peter, Matti.pdf": "LiBook",
@@ -43,5 +43,7 @@
   "Ciclo 2": {
     "iconName": "2️⃣",
     "iconColor": "#ff0000"
-  }
+  },
+  "Ciclo 3/Programación III": "LiCode",
+  "Ciclo 3/Ecuaciones Diferenciales": "LiMath"
 }
