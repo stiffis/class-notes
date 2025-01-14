@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBook",
-      "🚀",
-      "🌐",
-      "📐",
-      "🌊"
+      "2️⃣",
+      "1️⃣",
+      "LiBookUp2",
+      "3️⃣",
+      "LiSun"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,5 +34,14 @@
     "lucideIconPackType": "native",
     "useInternalPlugins": false
   },
-  "Blog Notes/Pensamiento Computacional/Computational Thinking - MIT Press - Peter, Matti.pdf": "LiBook"
+  "Blog Notes/Pensamiento Computacional/Computational Thinking - MIT Press - Peter, Matti.pdf": "LiBook",
+  "Workflow": "LiGithub",
+  "Diario": "LiSun",
+  "Ciclo 3": "3️⃣",
+  "Blog Notes": "LiBookUp2",
+  "Ciclo 1": "1️⃣",
+  "Ciclo 2": {
+    "iconName": "2️⃣",
+    "iconColor": "#ff0000"
+  }
 }
