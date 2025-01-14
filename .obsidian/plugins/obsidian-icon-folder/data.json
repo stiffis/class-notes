@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "CoMove",
       "LiMath",
       "LiMathXDivideY2",
       "LiCode",
-      "LiMathFunction",
-      "2️⃣"
+      "LiMathFunction"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,7 +31,7 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "debugMode": false,
-    "lucideIconPackType": "custom",
+    "lucideIconPackType": "native",
     "useInternalPlugins": false
   },
   "Blog Notes/Pensamiento Computacional/Computational Thinking - MIT Press - Peter, Matti.pdf": "LiBook",
@@ -45,5 +45,5 @@
     "iconColor": "#ff0000"
   },
   "Ciclo 3/Programación III": "LiCode",
-  "Ciclo 3/Ecuaciones Diferenciales": "LiMath"
+  "Ciclo 3/Ecuaciones Diferenciales": "CoMove"
 }
