@@ -192,6 +192,7 @@ Tenemos cuatro:
 - type
 
 ```ad-attention
-Finish notes
+Finish notes, template<template<typename>> typename C, typename T>
+...
 ```
 
