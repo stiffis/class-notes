@@ -4,6 +4,6 @@ Antes de comenzar, debemos tener una rama previa el producto final, el proyecto 
 
 Como la seguridad del proceso de desarrollo del proyecto es primordial se debe tener tener una rama para cada persona, esto por que cada campo tiene su propia línea de desarrollo.
 
-![[Pasted image 20250102234459.png|495]]
+![[Pasted image 20250102234327.png|500]]
 
-Se van añadiendo cambios a la cadena principal, por su puedo no debe faltar la comunicación constante por un medio especifico, ya sea en GitHub o por el servicio de mensajeria que se guste, y antes de casa "push" se debe consultar con todo el equipo si los cambios o las mejoras con la adecuadas y no malograr el tranquilo proceso de construcción.
+Se van añadiendo cambios a la cadena principal, por su puesto no debe faltar la comunicación constante por un medio especifico, ya sea en GitHub o por el servicio de mensajería que se guste, y antes de cada "push" se debe consultar con todo el equipo si los cambios o las mejoras con la adecuadas y no malograr el tranquilo proceso de construcción.
