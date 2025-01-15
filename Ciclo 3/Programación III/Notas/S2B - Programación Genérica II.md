@@ -167,4 +167,4 @@ T max(T const& a, T)
 ## Conclusiones
 
 - Los parámetros de pack se usan con Fold Expressions para crear Variadic Templates.
-- Entre las ventajas de utilizar Variadic Templates tenemos
+- Entre las ventajas de utilizar Variadic Templates tenemo
